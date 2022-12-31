@@ -1,11 +1,13 @@
-import {
-  createStore
-} from 'vuex'
+import { createStore } from 'vuex'
 import axios from 'axios'
 
 export default createStore({
-  state: {},
+  state: {
+    todos: []
+  },
+
   getters: {},
+
   mutations: {
 
 
@@ -35,9 +37,7 @@ export default createStore({
   },
 
   actions: {
-    getTodos({
-      commit
-    }) {
+    getTodos({ commit }) {
       return new Promise((resolve) => {
         setTimeout(() => {
           return axios.get('http://localhost:3000/todos')

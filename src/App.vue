@@ -1,10 +1,15 @@
 <template>
 
-  <!-- Content -->
   <div class="px-3 py-10 md:px-10">
 
-    <div class="w-full sm:w-1/2 lg:w-1/3 mx-auto">
+    <div>
+        <h1 class="text-center text-4xl mb-9 text-yellow-400 font-righteous">ToDo List</h1>
+    </div>
 
+    <div class="w-11/12  mx-auto">
+
+
+      
 
       <TodoSpinner v-if="loading" />
 
