@@ -28,7 +28,8 @@
     </div>
   </div>
 
-
+<pre class="text-white">
+{{ todos }}</pre>
 </template>
 
 <script>
