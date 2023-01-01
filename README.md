@@ -6,6 +6,13 @@
 
 <br><br>
 
+https://user-images.githubusercontent.com/111146928/210158317-484107c4-3d75-493c-9225-fa3f267c9e37.mp4
+
+
+
+
+<br>
+
 ## ⚙️ Tecnologias
 - VueJs
 - Vuex
@@ -21,10 +28,10 @@ $ git clone https://github.com/paulopariz/ToDoList.git
 $ cd TodoList
 `````
 ````
-yarn install
+$ yarn install
 `````
 ````
-yarn serve
+$ yarn serve
 `````
 
 ## 🛠️ Config Json-Server
